@@ -3,6 +3,6 @@
 ### Checklist
 
 - [x] SSH key generation
-- [x] VMware / 
+- [x] VMware / WSL
 - [x] Pwn.college
 
