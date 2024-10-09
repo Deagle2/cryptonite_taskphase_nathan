@@ -65,10 +65,10 @@ To obtain flag
 ## An Epic File System Quest
 To obtain the flag use the following clues
 
-```Your first clue is in /. Head on over there.
-Look around with ls. There'll be a file named HINT or CLUE or something along those lines!
-cat that file to read the clue!
-Depending on what the clue says, head on over to the next directory (or don't!). [some directories cant be redirected using cd cmd, so we use ls and cat cmd]
+>Your first clue is in /. Head on over there.
+>Look around with ls. There'll be a file named HINT or CLUE or something along those lines!
+>cat that file to read the clue!
+>Depending on what the clue says, head on over to the next directory (or don't!). [some directories cant be redirected using cd cmd, so we use ls and cat cmd]
 
 ### Making Directories
 
