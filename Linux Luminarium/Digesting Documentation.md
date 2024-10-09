@@ -95,7 +95,7 @@ challenge: challenge [--fortune] [--version] [--secret SECRET]
       --secret VALUE    prints the flag, if VALUE is correct
 
     You must be sure to provide the right value to --secret. That value
-    is "49MIWj-p".```
+    is "49MIWj-p".
 hacker@man~help-for-builtins:~$ challenge --secret 49MIWj-p
 Correct! Here is your flag!
 pwn.college{49MIWj-pajUI0KOnYeWuyQ1DxIF.dRTM5QDLxIDM2czW}```
