@@ -1,12 +1,9 @@
 # Challenge 5: File Globbing
 
 ## Course Introduction
-In this challenge, you will learn how to use file globbing to match file names and paths in Linux. File globbing allows you to use wildcards to create flexible patterns for searching files. Your goal is to obtain the flag by mastering these techniques.
+Globbing lets you reference files without typing them all out, or typing out their full paths. File globbing allows you to use wildcards to create flexible patterns for searching files.
 
-## Obtaining the Flag
-To successfully obtain the flag for this challenge, follow these methods based on the concepts discussed:
-
-### Method 1: Matching with `*`
+### Matching with `*`
 - **Description**: The `*` wildcard matches any number of characters in file names.
 - **Example**:
     ```bash
@@ -15,7 +12,7 @@ To successfully obtain the flag for this challenge, follow these methods based o
     ```
 - **Flag Retrieval**: Use the command to locate the flag.
 
-### Method 2: Matching with `?`
+### Matching with `?`
 - **Description**: The `?` wildcard matches a single character in a file name.
 - **Example**:
     ```bash
@@ -24,7 +21,7 @@ To successfully obtain the flag for this challenge, follow these methods based o
     ```
 - **Flag Retrieval**: Identify the flag using this pattern.
 
-### Method 3: Matching with `[]`
+###  Matching with `[]`
 - **Description**: Square brackets allow you to specify a set of characters to match.
 - **Example**:
     ```bash
@@ -33,7 +30,7 @@ To successfully obtain the flag for this challenge, follow these methods based o
     ```
 - **Flag Retrieval**: Apply this method to uncover the flag.
 
-### Method 4: Matching paths with `[]`
+### Matching paths with `[]`
 - **Description**: Use brackets to match directories or paths.
 - **Example**:
     ```bash
@@ -42,7 +39,7 @@ To successfully obtain the flag for this challenge, follow these methods based o
     ```
 - **Flag Retrieval**: Find the flag hidden in the specified path.
 
-### Method 5: Mixing Globs
+### Mixing Globs
 - **Description**: Combine different wildcards for complex searches.
 - **Example**:
     ```bash
@@ -51,7 +48,7 @@ To successfully obtain the flag for this challenge, follow these methods based o
     ```
 - **Flag Retrieval**: Use this mixed approach to locate the flag.
 
-### Method 6: Exclusionary Globbing
+### Exclusionary Globbing
 - **Description**: Exclude certain patterns using the `!` operator.
 - **Example**:
     ```bash
