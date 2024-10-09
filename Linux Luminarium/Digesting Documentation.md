@@ -77,7 +77,7 @@ run the command
 > /challenge/challenge -h
 
 This will give you all arguments, -p prints the secret code needed for flag, -g gets the flag
-> /challenge/challenge -g `code (I couldn't save)`
+> /challenge/challenge -g `-code (I couldn't save)`
 > Flag is printed
 
 ## Help for Builtins
