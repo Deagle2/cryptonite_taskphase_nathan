@@ -48,8 +48,9 @@ DESCRIPTION
 AUTHOR
        Written by Zardus.
 
-*From here we can can try challenge --gpgjru 447 
+*From here we can can try challenge --gpgjru 447*
 but challenge: command not found
 so we can try 
 > ./challenge --gpgjru 447
+> 
 > flag is obtained!
