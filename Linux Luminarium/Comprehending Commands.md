@@ -85,3 +85,8 @@ _*Links come in two flavors: hard and soft (also known as symbolic) links. We'll
 
 A hard link is when you address your appartment using multiple addresses that all lead directly to the same place (e.g., Apt 2 vs Unit 2).
 A soft link is when you move appartments and have the postal service automatically forward your mail from your old place to your new place.
+
+A symbolic link is a special type of file that serves as a reference to another file or directory. When you access a symlink, it behaves as if you are accessing the original file.
+
+To obtain the flag
+
