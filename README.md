@@ -2,7 +2,7 @@
 ### Contains all writeups and tasks
 ### Checklist
 
-- [ ] SSH key generation
-- [ ] VMware
-- [ ] Pwn.college
+- [x] SSH key generation
+- [x ] VMware
+- [ x] Pwn.college
 
