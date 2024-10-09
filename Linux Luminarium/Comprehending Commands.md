@@ -68,4 +68,20 @@ To obtain the flag use the following clues
 ```Your first clue is in /. Head on over there.
 Look around with ls. There'll be a file named HINT or CLUE or something along those lines!
 cat that file to read the clue!
-Depending on what the clue says, head on over to the next directory (or don't!). [some directories cant be redirected using cd cmd, so we use ls and cat cmd]```
+Depending on what the clue says, head on over to the next directory (or don't!). [some directories cant be redirected using cd cmd, so we use ls and cat cmd]
+
+### Making Directories
+
+mkdir command
+
+To obtain the flag
+> mkdir /tmp/pwn
+>
+>ls /tmp
+
+
+## Linking Files
+_*Links come in two flavors: hard and soft (also known as symbolic) links. We'll differentiate the two with an analogy:*_
+
+A hard link is when you address your appartment using multiple addresses that all lead directly to the same place (e.g., Apt 2 vs Unit 2).
+A soft link is when you move appartments and have the postal service automatically forward your mail from your old place to your new place.
