@@ -10,6 +10,7 @@ To obtain the flag
 
 ## Catting absolute paths
 cat for an absolute path 
+
 To obtain flag
 > cat /flag
 
