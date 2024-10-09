@@ -1,3 +1,8 @@
 # cryptonite_taskphase_nathan
-## Nathan - Cryptonite Task Phase 
 ### Contains all writeups and tasks
+### Checklist
+
+- [ ] SSH key generation
+- [ ] VMware
+- [ ] Pwn.college
+
