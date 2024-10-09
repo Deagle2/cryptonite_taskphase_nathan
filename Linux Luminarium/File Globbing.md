@@ -3,7 +3,7 @@
 ## Course Introduction
 Globbing lets you reference files without typing them all out, or typing out their full paths. File globbing allows you to use wildcards to create flexible patterns for searching files.
 
-### Matching with `*`
+## Matching with `*`
 - **Description**: When it encounters a `*` character in any argument, the shell will treat it as "wildcard" and try to replace that argument with any files that match the pattern.
 
 - **To obtain the flag**:
