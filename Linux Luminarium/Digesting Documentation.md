@@ -54,3 +54,14 @@ so we can try
 > ./challenge --gpgjru 447
 > 
 > flag is obtained!
+
+## Searching Manuals
+
+continuation of earlier challenge
+
+To obtain the Flag
+
+> man challenge
+>
+> there are 1800+ arguments, so I had to do forward search and type _/flag_, scrolled until I found  **--yje  This argument will give you the flag!**
+> /challenge/challenge --yje to obtain the flag
