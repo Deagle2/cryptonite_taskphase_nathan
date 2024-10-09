@@ -30,6 +30,7 @@ to obtain flag
 Introduction to *ls* cmd - List files/directories
 To obtain the flag
 > ls challenge
+
 > /challenge/run
 
 ## Touching Files
@@ -37,7 +38,9 @@ To obtain the flag
 
 To Obtain flag
 > touch /tmp/pwn
+> 
 > touch /tmp/college
+> 
 > /challenge/run
 
 ## Removing files
@@ -45,8 +48,24 @@ To Obtain flag
 
 To obtain flag 
 > rm delete_me
+> 
 > /challenge/check
 
 ## Hidden Files
 *ls -a* can be used to list hidden files, starting with .`file`
 
+To obtain flag
+
+>cd / #for root directory
+>
+>ls -a
+
+`cat the hidden file to obtain flag`
+
+## An Epic File System Quest
+To obtain the flag use the following clues
+
+```Your first clue is in /. Head on over there.
+Look around with ls. There'll be a file named HINT or CLUE or something along those lines!
+cat that file to read the clue!
+Depending on what the clue says, head on over to the next directory (or don't!). [some directories cant be redirected using cd cmd, so we use ls and cat cmd]```
