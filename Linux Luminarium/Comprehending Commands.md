@@ -24,5 +24,5 @@ __grep_: Primarily searches within files for specific patterns or text strings. 
 _find_: Searches for files and directories in a filesystem based on various criteria, such as name, type, size, and more. It operates on the file system structure.
 
 to obtain flag
--[x] grep pwn.college
+grep pwn.college
 
