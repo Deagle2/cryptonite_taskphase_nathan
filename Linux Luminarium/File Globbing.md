@@ -14,7 +14,6 @@ Globbing lets you reference files without typing them all out, or typing out the
 ### Matching with `?`
 - **Description**: The `?` wildcard matches a single character in a file name. Similar to `*`  wildcard 
 
-    ```
 - **To obtain the flag**: Identify the flag using this pattern.
 
 ###  Matching with `[]`
