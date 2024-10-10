@@ -1,4 +1,4 @@
-### Challenge 3: Comprehending Commands
+### Module 3: Comprehending Commands
 ## Cat: not the pet but the command
 cat is most often used for reading out files, like so:
 
