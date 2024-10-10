@@ -1,4 +1,4 @@
-# Challenge 6: Practicing Piping
+# Module 6: Practicing Piping
 
 ## Course Introduction
 Linux has three initial, standard channels of communication. 
