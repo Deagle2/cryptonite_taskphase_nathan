@@ -1,4 +1,4 @@
-# Module 6: Practicing Piping
+#  Module 6: Practicing Piping
 
 ## Course Introduction
 Linux has three initial, standard channels of communication. 
@@ -165,7 +165,7 @@ should be provided by the 'pwn' command. HINT: use 'tee' to intercept the
 output of 'pwn' and figure out what the code needs to be.`
 2. /challenge/pwn | tee output.txt | /challenge/college
 3. cat output.txt
-4. We get `hacker@piping~duplicating-piped-data-with-tee:~$ cat output.txt
+4. We get `hacker@piping~duplicating-piped-data-with-tee:~$ cat output.txt`
 Usage: /challenge/pwn --secret [SECRET_ARG]
 
 SECRET_ARG should be "su3IUXZp"`
