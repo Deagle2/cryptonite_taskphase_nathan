@@ -34,9 +34,11 @@ Linux has three initial, standard channels of communication.
 [FAIL] You did not satisfy all the execution requirements.
 [FAIL] Specifically, you must fix the following issue:
 [FAIL]   You have not redirected anything for this process' stdout.
-5. `running /challenge/run > myflag` only gives the same above output
+3. `running /challenge/run > myflag` only gives the same above output
+
 4.We can do `cat myflag`
-3. pwn.college{0wjQVTjo_T7aLMiUbyD6lVgzrul.dVjN1QDLxIDM2czW}
+
+5. pwn.college{0wjQVTjo_T7aLMiUbyD6lVgzrul.dVjN1QDLxIDM2czW}
  
 ## Appending output
 - **Description**: 
@@ -82,53 +84,88 @@ FD 2: Standard Error
 
 ## Redirecting Input
 - **Description**: 
-  [A concise explanation of the concept, command, or wildcard being used.]
+  You can redirect input to programs using `<`
+ 
+`hacker@dojo:~$ cat message`
+
+yo
+
+`hacker@dojo:~$ rev < message`
+
+oy
 
 - **To obtain the flag**:
-  1. [Step-by-step instruction 1]
-  2. [Step-by-step instruction 2, if needed]
+  1. In this level, we will practice using /challenge/run, which will require you to redirect the PWN file to it and have the PWN file contain the value COLLEGE! To write that value to the PWN file, recall the prior challenge on output redirection from echo!
+
+  2. We use `echo COLLEGE > PWN` to write COLLEGE to the PWN file
+
+  3.  /challenge/run < PWN    
+Reading from standard input...
+Correct! You have redirected the PWN file into my standard input, and I read 
+the value 'COLLEGE' out of it!
+Here is your flag:
+pwn.college{cEVeLi4CjsSI-lG30M_wsqc46bN.dBzN1QDLxIDM2czW}
+
+`PWN file has the same value of COLLEGE`
  
  ## Grepping stored results
-- **Description**: 
-  [A concise explanation of the concept, command, or wildcard being used.]
+- **Description**:
+- Usage of `>` and `grep` command
+- Rhe next part of Practicing Piping introduces us to the pipe operator a mix of > and grep
+  
 
 - **To obtain the flag**:
-  1. [Step-by-step instruction 1]
-  2. [Step-by-step instruction 2, if needed]
+- ```
+  Redirect the output of /challenge/run to /tmp/data.txt.
+This will result in a hundred thousand lines of text, with one of them being the flag, in /tmp/data.txt.
+Grep that for the flag!
+
+  1. Redirect the output `/challenge/run >  /tmp/data.txt`
+  2. finding any string that matches with pwn.college in /tmp/data.txt
+  3. `hacker@piping~grepping-stored-results:~$` grep pwn.college /tmp/data.txt
+      pwn.college{woG7sVmwCRfyYleK1zpxbmXQfE3.dhTM4QDLxIDM2czW}
 
 ## Grepping Live Output
 - **Description**: 
-  [A concise explanation of the concept, command, or wildcard being used.]
+  Introduction to | (pipe) operator
+
+  Standard output from the command to the left of the pipe will be connected to (piped into) the standard input of the command to the right of the pipe
 
 - **To obtain the flag**:
-  1. [Step-by-step instruction 1]
-  2. [Step-by-step instruction 2, if needed]
+- `/challenge/run` will output a hundred thousand lines of text, including the flag. Grep for the flag!
+  1. challenge/run give a big output, 
+we can see the following in the output
+[INFO] - the challenge will output a reward file if all the tests pass : /challenge/.data.txt
+  2. `/challenge/.data.txt` but bash: /challenge/.data.txt: Permission denied as output
+  3. So since I know pwn.college is in the flag I used the pipe operator to find the flag in the output of /challenge/run
+  4. /challenge/run | grep pwn.college
+  5. pwn.college{kaL8h5rE_2IpnJvaM8N0xjaWBrF.dlTM4QDLxIDM2czW}
  
 
 ## Grepping errors
 - **Description**: 
-  [A concise explanation of the concept, command, or wildcard being used.]
+  
 
 - **To obtain the flag**:
-  1. [Step-by-step instruction 1]
-  2. [Step-by-step instruction 2, if needed]
+  1. 
+  2. 
  
   
 ## Duplicating piped data with tee
 - **Description**: 
-  [A concise explanation of the concept, command, or wildcard being used.]
+  
 
 - **To obtain the flag**:
-  1. [Step-by-step instruction 1]
-  2. [Step-by-step instruction 2, if needed]
+  1. 
+  2. 
 
 ## Writing to multiple programs
 - **To obtain the flag**:
-  1. [Step-by-step instruction 1]
-  2. [Step-by-step instruction 2, if needed]
+  1. 
+  2. 
 
 
 ## Splitt-piping stderr and stdout
 - **To obtain the flag**:
-  1. [Step-by-step instruction 1]
-  2. [Step-by-step instruction 2, if needed]
+  1. 
+  2. 
