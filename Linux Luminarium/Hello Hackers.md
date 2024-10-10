@@ -1,4 +1,4 @@
-# Challenge 1: Hello Hackers
+# Module 1: Hello Hackers
 ## Part 1: Intro to Commands
 - **To obtain the flag**:
 - Invoke the hello command to get the flag
