@@ -74,9 +74,10 @@ FD 2: Standard Error
 - **To obtain the flag**:
   1.  this challenge, you will need to redirect the output of /challenge/run, like before, to myflag, and the "errors" (in our case, the instructions) to instructions
   2. We can start off with /challenge/run 1> myflag 2> instructions
-  3. hacker@piping~redirecting-errors:~$ cat myflag
+  3. `hacker@piping~redirecting-errors:~$` cat myflag
 
 [FLAG] Here is your flag:
+
 [FLAG] pwn.college{sqGCarKpfJT2r8vprx49gL-pJXh.ddjN1QDLxIDM2czW}
 
 ## Redirecting Input
