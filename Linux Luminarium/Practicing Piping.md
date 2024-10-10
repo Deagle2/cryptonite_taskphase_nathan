@@ -44,7 +44,8 @@ Linux has three initial, standard channels of communication.
 You can redirect input in append mode using >> instead of >
 
 - **To obtain the flag**:
-  ```1. /challenge/run >> /home/hacker/the-flag
+  ```
+  1. /challenge/run >> /home/hacker/the-flag
       2. catenate the-flag file
       3. cat the-flag
       4.| 
