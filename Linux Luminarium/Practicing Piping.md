@@ -51,7 +51,7 @@ You can redirect input in append mode using >> instead of >
       4.| 
        \|/ This is the first half:
         v 
-pwn.college{MiOXND5YgnhkOLgR5tV0Src007-.ddDM5QDLxIDM2czW}
+      pwn.college{MiOXND5YgnhkOLgR5tV0Src007-.ddDM5QDLxIDM2czW}
                               ^
      that is the second half /|\
                               |
@@ -59,7 +59,7 @@ pwn.college{MiOXND5YgnhkOLgR5tV0Src007-.ddDM5QDLxIDM2czW}
 If you only see the second half above, you redirected in *truncate* mode (>) 
 rather than *append* mode (>>), and so the write of the second half to stdout 
 overwrote the initial write of the first half directly to the file. Try append 
-mode!
+mode!```
  
      
 ## Redirecting errors
