@@ -70,6 +70,47 @@ To obtain the Flag
 ## Searching for Manuals
 Introduction to `man man` command
 
+## To obtain the flag
+>man man
+>
+>man -k challenge
+>
+> man zmsndlmaid
+
+CHALLENGE(1)                                      Challenge Commands                                      CHALLENGE(1)
+
+NAME
+       /challenge/challenge - print the flag!
+
+SYNOPSIS
+       challenge OPTION
+
+DESCRIPTION
+       Output the flag when called with the right arguments.
+
+       --fortune
+              read a fortune
+
+       --version
+              output version information and exit
+
+       --zmsndl NUM
+              print the flag if NUM is 191
+
+AUTHOR
+       Written by Zardus.
+
+REPORTING BUGS
+       The repository for this dojo: <https://github.com/pwncollege/linux-luminarium/>
+
+SEE ALSO
+       man(1) bash-builtins(7)
+
+pwn.college                                            May 2024                                           CHALLENGE(1)
+
+> /challenge/challenge --zmsndl 191
+> 
+> pwn.college{MXzGX1mWRsA91QPHndERlPm61ai.dZTM4QDLxIDM2czW}
 
 ## Helpful Programs
 To obtain the flag
