@@ -1,4 +1,4 @@
-# Challenge 5: File Globbing
+# Module 5: File Globbing
 
 ## Course Introduction
 Globbing lets you reference files without typing them all out, or typing out their full paths. File globbing allows you to use wildcards to create flexible patterns for searching files.
