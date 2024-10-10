@@ -144,28 +144,67 @@ we can see the following in the output
 
 ## Grepping errors
 - **Description**: 
-  
+  The shell has a >& operator, which redirects a file descriptor to another file descriptor.
+  We redirect standard error to standard output (2>& 1) and then pipe the now-combined stderr   and stdout as normal (|)
 
 - **To obtain the flag**:
-  1. 
-  2. 
+  1. `/challenge/run 2>& 1 | grep pwn.college `
+   
  
   
 ## Duplicating piped data with tee
 - **Description**: 
-  
+  This process' /challenge/pwn must be piped into /challenge/college, but you'll need to       
+  intercept the data to see what pwn needs from you!
 
 - **To obtain the flag**:
-  1. 
-  2. 
+  1. challenge/pwn | /challenge/college
+  ` We get an the output as `Processing...
+The input to 'college' does not contain the correct secret code! This code 
+should be provided by the 'pwn' command. HINT: use 'tee' to intercept the 
+output of 'pwn' and figure out what the code needs to be.`
+2. /challenge/pwn | tee output.txt | /challenge/college
+3. cat output.txt
+4. We get `hacker@piping~duplicating-piped-data-with-tee:~$ cat output.txt
+Usage: /challenge/pwn --secret [SECRET_ARG]
+
+SECRET_ARG should be "su3IUXZp"`
+5. /challenge/pwn --secret su3IUXZp | /challenge/college
+
 
 ## Writing to multiple programs
+Process Substitution method
+
+ In this challenge, we have /challenge/hack, /challenge/the, and /challenge/planet. Run the /challenge/hack command, and duplicate its output as input to both the /challenge/the and the /challenge/planet commands
+ 
 - **To obtain the flag**:
-  1. 
-  2. 
+  1.  In this challenge, we have /challenge/hack, /challenge/the, and /challenge/planet. Run the /challenge/hack command, and duplicate its output as input to both the /challenge/the and the /challenge/planet commands!
+  2. `/challenge/hack | tee >(/challenge/the) | /challenge/planet`
+Congratulations, you have duplicated data into the input of two programs! Here 
+is your flag:
+pwn.college{QucI4WoDHekh81yn2urwzmYrj29.dBDO0UDLxIDM2czW}
+
+
+`>(/challenge/the)` is the process substitution. Sending the duplicated output from tee to `/challenge/the`.
+
 
 
 ## Splitt-piping stderr and stdout
+To redirect stdout to one program and stderr to another.
+Obtaining the flag was a bit complicated
+In this challenge, you have:
+
+/challenge/hack: this produces data on stdout and stderr
+/challenge/the: you must redirect hack's stderr to this program
+/challenge/planet: you must redirect hack's stdout to this program
+and combine the knowledge of >(), 2>, and |
 - **To obtain the flag**:
-  1. 
-  2. 
+  1. I tried various methods and combinations with >(), 2>, and |
+  2. In the end I got the flag with the command ` /challenge/hack 2> >( /challenge/the ) | /challenge/planet `
+  3. Output: Congratulations, you have learned a redirection technique that even experts 
+struggle with! Here is your flag:
+pwn.college{kV7aOiZ1D8NdsKHBnBNo7aiZOvx.dFDNwYDLxIDM2czW}
+`
+
+
+### *_END_*
