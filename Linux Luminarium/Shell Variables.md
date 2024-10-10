@@ -1,7 +1,7 @@
 # Module 7: Shell Variables
 
 ## Course Introduction
-Command line interface is colloquially referred to as a "shell", programs written in this language are referred to as "shell scripts". 
+Command line interface `(CLI)` is colloquially referred to as a "shell", programs written in this language are referred to as "shell scripts". 
 When you're using the command line, you are basically writing a shell script line by line
 
 #  Printing Variables
