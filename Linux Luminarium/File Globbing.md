@@ -23,7 +23,7 @@ Globbing lets you reference files without typing them all out, or typing out the
   > 
   > /challenge/run to get verify and get flag
 
-  ```Use Case:
+Use Case:
 The ? wildcard is often used when:
 
 You know the structure of the name but aren't sure about certain characters.
@@ -32,8 +32,8 @@ You want to match multiple files or directories where only a few characters diff
 ###  Matching with `[]`
 - **Description**: Square brackets allow you to specify a set of characters to match.
 - 
-```The square brackes are, essentially, a limited form of ?, in that instead of matching any character, [] is a wildcard for some subset of potential characters, specified within the brackets. For example, [pwn] will match the character p, w, or n.
-```
+The square brackes are, essentially, a limited form of ?, in that instead of matching any character, [] is a wildcard for some subset of potential characters, specified within the brackets. For example, [pwn] will match the character p, w, or n.
+
 - **To obtain the flag**:
   > cd /challenge/files
   > 
@@ -93,6 +93,6 @@ Instead, it expanded to:
   > 
   > pwn.college{AuULO6V92VoFf3zpwYreeh4me3Q.dZjM4QDLxIDM2czW}
 
-  ```Without the *, the pattern would only match files with a single character that is not "p," "w," or "n." In other words, without *, it would only match files that are exactly one character long.
+ Without the *, the pattern would only match files with a single character that is not "p," "w," or "n." In other words, without *, it would only match files that are exactly one character long.
 
 _END_
