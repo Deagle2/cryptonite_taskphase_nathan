@@ -1,4 +1,4 @@
-# Challenge 4: Digesting Documentation
+# Module 4: Digesting Documentation
 ## Learning from Documentation
 
 To obtain the Flag
