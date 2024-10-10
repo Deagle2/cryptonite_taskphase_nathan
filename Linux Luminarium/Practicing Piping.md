@@ -44,12 +44,12 @@ Linux has three initial, standard channels of communication.
 You can redirect input in append mode using >> instead of >
 
 - **To obtain the flag**:
-  1. /challenge/run >> /home/hacker/the-flag
-  2. catenate the-flag file
-  3. cat the-flag
-  4.| 
-   \|/ This is the first half:
-    v 
+  ```1. /challenge/run >> /home/hacker/the-flag
+      2. catenate the-flag file
+      3. cat the-flag
+      4.| 
+       \|/ This is the first half:
+        v 
 pwn.college{MiOXND5YgnhkOLgR5tV0Src007-.ddDM5QDLxIDM2czW}
                               ^
      that is the second half /|\
