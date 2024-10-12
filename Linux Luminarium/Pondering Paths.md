@@ -6,28 +6,20 @@ The Linux filesystem is a "tree". That is, it has a root (written as /). The roo
   
 
    ## The Root
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
 
 - **To obtain the flag**:
-  1.
+  1. /pwn to obtain flag
 
      ## Program and Absolute Paths
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
-
 - **To obtain the flag**:
-  1.
+  1. /challenge/run
 
      ## Position thy self
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
 
 - **To obtain the flag**:
-  1.
+  1. cd /challenge
+  2. ls /challenge
+  3. /challenge/run
 
      ## Position elsewhere
 - **Description**: 
@@ -35,45 +27,44 @@ The Linux filesystem is a "tree". That is, it has a root (written as /). The roo
   will redirect the output of the echo command to a file.
 
 - **To obtain the flag**:
-  1.
+  1./challenge/run
+  2. cd /usr/share/build-essential
+  3. /challenge/run
 
      ## Position yet elsewhere
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
 
 - **To obtain the flag**:
-  1.
+  1. /challenge/run
+  2. cd /etc/apt/sources.list.d
+  3. /challenge/run
 
      ## implicit relative paths, from/
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
 
 - **To obtain the flag**:
-  1.
+  1. /challenge/run
+  2. cd /     (root dir.)
+  3. challenge/run
 
      ## explicit relative paths, from/ 
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
+
 
 - **To obtain the flag**:
-  1.
+  1. cd /
+  2. ./challenge run   (`/challenge/run` will not work)
 
 
-   ## Home sweet Home
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
+   ## implicit relative path
 
 - **To obtain the flag**:
-  1.
-  
-   ## explicit relative paths, from/ 
-- **Description**: 
-  The > character is used to redirect the output from a command to a file. In this case, we 
-  will redirect the output of the echo command to a file.
+  1. cd /
+  2. cd challenge
+  3. ./run
+ 
+     ## Home sweet Home
 
-- **To obtain the flag**:
-  1.
+  -**To obtain the flag**:
+  The constraints are:
+Your argument must be an absolute path.
+The path must be inside your home directory.
+Before expansion, your argument must be three characters or less.
+  1. /challenge/run ~/a
