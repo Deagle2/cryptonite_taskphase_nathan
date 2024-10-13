@@ -71,7 +71,7 @@ Suspend processes to the background with Ctrl-Z
 
 ---
 
-# Starinting Backgrounded Processes 
+# Starting Backgrounded Processes 
 - **To obtain the flag**:
 
   1. 
