@@ -4,5 +4,5 @@
 
 - [x] SSH key generation
 - [x] VMware / WSL
-- [x] Pwn.college
+- [x] pwn.college
 
