@@ -29,6 +29,9 @@ ps aux and ps -ef
 ---
 
 # Interrupting Processes
+
+The "Ctrl" or "Control" key is so called because it is used to send control characters. Control characters are not actual characters, but are rather used to control the terminal that they are "printed" on. CTRL + C to kill a process
+
 - **To obtain the flag**:
 
   1.
@@ -36,6 +39,9 @@ ps aux and ps -ef
 ---
 
 # Suspending Processes
+
+Suspend processes to the background with Ctrl-Z 
+
 - **To obtain the flag**:
 
   1. 
@@ -43,6 +49,8 @@ ps aux and ps -ef
 ---
 
 # Resuming Processes
+
+
 - **To obtain the flag**:
 
   1. 
