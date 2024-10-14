@@ -23,8 +23,12 @@ ps aux and ps -ef
 
 - **To obtain the flag**:
 
->  1. 3
->  2.  
+>  1.  ps -ef | grep dont_run
+      Output shows : /challenge/dont_run
+
+>  3.  kill /challenge/dont_run
+>  4.  kill 72
+>  5.  /challenge/run 
 
 ---
 
