@@ -112,27 +112,48 @@ pwn.college{4Wls7-Zl8T_UeyMQpdCStOMserM.dVDN4QDLxIDM2czW}
 # Backgrounding Processes
 - **To obtain the flag**:
 
-  1.
+  1. /challenge/run
+  2. ```
+     
+      To pass this level, you need to suspend me and launch me again! You can 
+      background me with Ctrl-Z or, if you're not ready to do that for whatever 
+      reason, just hit Enter and I'll exit! 
+  3. /challenge/run
 
 ---
 
 # Foregrounding Processes
 - **To obtain the flag**:
 
-  1. 
+  1. /challenge/run
+  2. bg /challenge/run
+  3. fg /challenge/run
 
 ---
 
 # Starting Backgrounded Processes 
 - **To obtain the flag**:
 
-  1. 
+  1. /challenge/run
+  2. /challenge/run &
+  3. ```
+      hacker@processes~starting-backgrounded-processes:~$ Yay, you started me in the background! Because of that, this text will probably 
+      overlap weirdly with the shell prompt, but you're used to that by now...  Anyways! Here is your flag! pwn.college{4wubEL68pHbRQizMZbiiBlrIxfi.dlDN4QDLxIDM2czW}
 ---
 
 # Process Exit Codes
 - **To obtain the flag**:
+  1. /challenge/submit-code
+     ```
+       /challenge/submit-code: line 3: /tmp/.code: No such file or directory
+        You must run /challenge/submit-code with the exit code you retrieved from 
+        /challenge/get-code as the first argument:
 
-  1. 
+  2. /challenge/get-code
+  3. echo $?
+     ```
+     166
+  4. /challenge/submit-code 166 
 
 
 ## *_END_* 
