@@ -1,4 +1,4 @@
-# Module 7: Processes and Jobs
+# Module 8: Processes and Jobs
 
 ## Course Introduction
 
