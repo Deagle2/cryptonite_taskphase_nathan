@@ -1,4 +1,4 @@
-# Module 8: Perceiving Permissions
+# Module 9: Perceiving Permissions
 
 # Changing File Ownership
 
