@@ -313,9 +313,18 @@ pwn.college{UoF0uaeoJ41Tk0VhojlNiVI5Mb0.dBTM2QDLxIDM2czW}
 
 # The SUID Bit
 
+"Set User ID" (SUID) permissions bit allows the user to run a program as the owner of that program's file. This means that, regardless of what user runs the program (as long as they have executable permissions), the program will execute as the owner user 
+Usage `chmod u+s [program]`
+
 - **To obtain the flag**:
 
-  1. 
+  1.  chmod u+s /challenge/getroot
+
+  2.  /challenge/getroot
+
+> SUCCESS! You have set the suid bit on this program, and it is running as root! Here is your shell...
+
+  3.  cat /flag
 
 
 
