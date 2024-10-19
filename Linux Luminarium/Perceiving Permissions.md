@@ -307,7 +307,11 @@ pwn.college{UoF0uaeoJ41Tk0VhojlNiVI5Mb0.dBTM2QDLxIDM2czW}
 
 - **To obtain the flag**:
 
-  1. 
+  1. Similar to prev. challenge
+    Very big chunk of text, click on the arrow
+  <details>
+  <summary>Click to expand!</summary>
+    </details>
 
 ---
 
