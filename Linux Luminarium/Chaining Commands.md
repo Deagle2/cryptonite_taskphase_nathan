@@ -2,6 +2,23 @@
 
 ## Course Introduction
 
+Introduction to chaining cmd. Chaining is different from Piping
+
+
+Chaining lets you run multiple commands that are independent of each other 
+- 
+Usage `/challenge/pwn  ; /challenge/college `
+There are other types of chaining commands such as 
+
+`&&` - Runs the next command only if the previous command succeeds 
+
+and
+
+ `||`- Runs the next command only if the previous command fails
+
+Piping takes the output of 1st command and passes it as input to the 2nd command as learnt in previous modules
+-
+- Usage `ls -l | grep ".txt"`
 
 # Chaining with semicolons
 To chain /challenge/pwn and /challenge/college
