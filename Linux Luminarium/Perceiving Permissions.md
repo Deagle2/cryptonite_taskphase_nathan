@@ -324,7 +324,7 @@ Usage `chmod u+s [program]`
 
 > SUCCESS! You have set the suid bit on this program, and it is running as root! Here is your shell...
 
-  3.  cat /flag
+    3.  cat /flag
 
 
 
