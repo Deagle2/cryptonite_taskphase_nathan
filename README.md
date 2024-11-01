@@ -18,7 +18,7 @@
 |                   | 2. tunn3l v1s10n                             |haven't started |
 |                   | 3. m00nwalk                                  | haven't started |
 | Web Exploitation           | 1. SOAP                                      | haven't started |
-|                   | 2. Forbidden Paths                           | haven't started |
+|                   | 2. Forbidden Paths                           | Done |
 |                   | 3. cookies                                   | haven't started |
 | Crypto     | 1. C3                                       | haven't started |
 |                   | 2. Custom encryption                         | haven't started |
@@ -26,5 +26,6 @@
 | Binary Exploitation       | 1. buffer overflow 0                         | haven't started |
 |                   | 2. format string 0                           | haven't started |
 |                   | 3. flag leak                                 | haven't started |
+
 
 
