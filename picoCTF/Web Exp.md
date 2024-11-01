@@ -7,11 +7,37 @@ Additional details will be available after launching your challenge instance.
 
 
 ## To Obtain Flag
-  1. 3 .txt files are given and an input to type what to read is given in the webpage
+  1. Three .txt files are given and an input to type what to read is given in the webpage
   2.  The file lives in /usr/share/nginx/html/ so we enter ../../../flag.txt in the input field to reach /flag.txt. ` ../` is used to navigate up to one level of the directory 
   3. On clicking read button the webpage takes us to a different page ending with read.php and gives us the flag
 
 ### Flag 
 picoCTF{7h3_p47h_70_5ucc355_e5fe3d4d}
 
+---
 
+# SOAP
+
+## Description
+
+
+## To Obtain Flag
+  1. 
+  2. 
+  3. 
+
+### Flag
+
+---
+
+# cookies
+
+## Description
+
+
+## To Obtain Flag
+  1. 
+  2. 
+  3. 
+
+### Flag
