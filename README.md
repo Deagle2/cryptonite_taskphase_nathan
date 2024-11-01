@@ -10,7 +10,7 @@
 ## PICO CTF
 
 | Category          | Challenges                                   | Status          |
-|-------------------|---------------------------------------------|-----------------|
+|-|-|-|
 | Reverse Engineering    | 1. GDB baby step 1                          | haven't started|
 |                   | 2. ARMsembly 1                               | haven't started |
 |                   | 3. Vault door 3                              | haven't started |
