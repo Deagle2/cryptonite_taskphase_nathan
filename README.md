@@ -19,7 +19,7 @@
 |                   | 3. m00nwalk                                  | haven't started |
 | Web Exploitation           | 1. SOAP                                      | haven't started |
 |                   | 2. Forbidden Paths                           | Done |
-|                   | 3. cookies                                   | haven't started |
+|                   | 3. cookies                                   | Done |
 | Crypto     | 1. C3                                       | haven't started |
 |                   | 2. Custom encryption                         | haven't started |
 |                   | 3. miniRSA                                   | haven't started |
