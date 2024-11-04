@@ -15,14 +15,14 @@
 |                   | 2. ARMsembly 1                               | haven't started |
 |                   | 3. Vault door 3                              | haven't started |
 | Forensics         | 1. trivial flag transfer protocol           | haven't started |
-|                   | 2. tunn3l v1s10n                             |haven't started |
+|                   | 2. tunn3l v1s10n                             |doing |
 |                   | 3. m00nwalk                                  | haven't started |
 | Web Exploitation           | 1. SOAP                                      | haven't started |
 |                   | 2. Forbidden Paths                           | Done |
 |                   | 3. cookies                                   | Done |
 | Crypto     | 1. C3                                       | haven't started |
 |                   | 2. Custom encryption                         | haven't started |
-|                   | 3. miniRSA                                   | haven't started |
+|                   | 3. miniRSA                                   | doing |
 | Binary Exploitation       | 1. buffer overflow 0                         | haven't started |
 |                   | 2. format string 0                           | haven't started |
 |                   | 3. flag leak                                 | haven't started |
