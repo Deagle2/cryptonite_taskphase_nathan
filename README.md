@@ -24,7 +24,7 @@
 |                   | 2. Custom encryption                         | haven't started |
 |                   | 3. miniRSA                                   | doing |
 | Binary Exploitation       | 1. buffer overflow 0                         | haven't started |
-|                   | 2. format string 0                           | haven't started |
+|                   | 2. format string 0                           | Done |
 |                   | 3. flag leak                                 | haven't started |
 
 
