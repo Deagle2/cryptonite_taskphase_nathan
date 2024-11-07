@@ -43,7 +43,8 @@
 ---
 
 ## What you learned through solving this challenge:
-1. Manipulating cookie values can reveal sensitive information.
+1. Manipulating cookie values could reveal sensitive information.
+   
 
 ---
 
