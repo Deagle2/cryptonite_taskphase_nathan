@@ -2,7 +2,7 @@
 
 | Category          | Challenges                                   | Status          |
 |-|-|-|
-| Reverse Engineering    | 1. GDB baby step 1                          | haven't started|
+| Reverse Engineering    | 1. GDB baby step 1                          | Done |
 |                   | 2. ARMssembly 1                               | haven't started |
 |                   | 3. Vault door 3                              | haven't started |
 | Forensics         | 1. trivial flag transfer protocol           | haven't started |
