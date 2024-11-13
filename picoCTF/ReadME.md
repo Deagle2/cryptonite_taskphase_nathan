@@ -17,3 +17,6 @@
 | Binary Exploitation       | 1. buffer overflow 0                         | haven't started |
 |                   | 2. format string 0                           | Done |
 |                   | 3. flag leak                                 | haven't started |
+|Extra Challenges||
+| Web Exploitation| 1. picobrowser | Done|
+||2. Login| Done|
