@@ -18,5 +18,5 @@
 |                   | 2. format string 0                           | Done |
 |                   | 3. flag leak                                 | haven't started |
 |Extra Challenges||
-| Web Exploitation| 1. picobrowser | Done|
-||2. Login| Done|
+| Web Exploitation| 1. picobrowser | ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
+||2. Login| ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
