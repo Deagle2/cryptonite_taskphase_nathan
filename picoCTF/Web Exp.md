@@ -1,4 +1,4 @@
-# Forbidden Paths
+# Challenge: Forbidden Paths
 
 **Flag:** `picoCTF{7h3_p47h_70_5ucc355_e5fe3d4d}`
 ---
@@ -19,16 +19,15 @@
 ## References:
     N/A
 
+***
 
----
-
-# Cookies
+# Challenge: Cookies
 
 **Flag:** `picoCTF{3v3ry1_l0v3s_c00k135_96cdadfd}`
 
 ---
 
-## How you approached the challenge:
+### How you approached the challenge:
 - The webpage has a search bar with the prompt `snickerdoodle`, so I entered the same exact text and searched, which returned the response: `I love chocolate chip cookies!`
 - Since the CTF name was "cookies," I suspected the flag might be stored in the cookies. Using **Inspect Element > Application > Storage > Cookies**, I found two cookies: `authname` and `name`.
 - The `authname` cookie didn’t seem useful, but the `name` cookie had the value 0. I changed the value to 1, which gave me the same response: I love chocolate chip cookies!. 
@@ -42,12 +41,12 @@
 
 ---
 
-## What you learned through solving this challenge:
+### What you learned through solving this challenge:
 1. Manipulating cookie values could reveal sensitive information.
    
 
 
-## Other incorrect methods you tried:
+### Other incorrect methods you tried:
 - Changing the cookie value to a negative number.
 - Entering cookie in the search bar instead of the given prompt.
 
@@ -57,9 +56,9 @@
 N/A
 
 
---- 
+*** 
 
-# Picobrowser
+# Challenge: Picobrowser
 
 **Flag:** `picoctf{s3cr3t_ag3nt_84f9c865}`
 
@@ -86,9 +85,9 @@ N/A
 - [reference 1](https://www.searchenginejournal.com/change-user-agent/368448/)
 
 
----
+***
 
-# login 
+# Challenge: login 
 
 **Flag:** `picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}`
 
@@ -136,3 +135,5 @@ How you approached the challenge:
 ### References
 
 - [reference 1](https://www.base64decode.org/)
+
+***
