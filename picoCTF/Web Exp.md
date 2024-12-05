@@ -58,6 +58,44 @@ N/A
 
 *** 
 
+# Challenge: SOAP
+
+**Flag:** ` picoCTF{XML_3xtern@l_3nt1t1ty_540f4f1e} `
+
+## How you approached the challenge:
+
+- We are tasked with finding the hidden file in /etc/passwd. A hint is given pointing to `XML external entity Injection`, also known as XXE attack.
+- The only interactive elements on the website are 3 buttons ` Details `, we can normally exploite XXE vulnerability to  retrieve the /etc/passwd file by submitting the following XXE payload:
+- Go to Dev Tools > Network Tab, I clicked on the first "Details" button
+- Send a new request by adding a new XXE attack payload in the body and click on the response to get the flag
+ 
+ ```
+  <!--?xml version="1.0" ?-->
+<!DOCTYPE foo [<!ENTITY example SYSTEM "/etc/passwd"> ]>
+<data>&example;</data>
+
+ ```
+- Explanation of payload:
+  1. <!DOCTYPE> allows us to define an external entity, in this case `&example`, foo is placeholder
+  2. [<!ENTITY example SYSTEM "/etc/passwd"> ]>, gives example as the contents inside /etc/passwd
+  3. The XXE payload defines an external entity, a placeholder `&example`, whose value is the contents of the /etc/passwd file. When the XML is read by the             program, it may automatically replace `&example`, with the actual data from that file. 
+
+### What you learned through solving this challenge:
+
+1. SOAP - ( Simple Object Access Protocol) is a message convention that permits appropriated components of an application to convey. It uses XML to send messages over a network(HTTP)
+2. XXE attack, There are many types of XXE  attacks, the method used in this ctf is where an external entity is defined containing the contents of a file, and returned in the application's response.
+
+### Other incorrect methods you tried:
+
+- It took a few tries to send the payload as it failed the first few tries (no response)
+
+### References
+
+- [PORTSWIGGER](https://portswigger.net/web-security/xxe)
+- [W3SCHOOLS-SOAP](https://www.w3schools.com/XML/xml_soap.asp)
+- [reference 2](https://book.hacktricks.xyz/pentesting-web/xxe-xee-xml-external-entity)
+
+
 # Challenge: Picobrowser
 
 **Flag:** `picoctf{s3cr3t_ag3nt_84f9c865}`
