@@ -5,7 +5,7 @@
 | Reverse Engineering    | 1. GDB baby step 1                          | Done |
 |                   | 2. ARMssembly 1                               | haven't started |
 |                   | 3. Vault door 3                              | haven't started |
-| Forensics         | 1. trivial flag transfer protocol           | haven't started |
+| Forensics         | 1. trivial flag transfer protocol           | Done |
 |                   | 2. tunn3l v1s10n                             |Done |
 |                   | 3. m00nwalk                                  | Done |
 | Web Exploitation           | 1. SOAP                                      | Done |
