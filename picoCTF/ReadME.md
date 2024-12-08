@@ -11,7 +11,7 @@
 | Web Exploitation           | 1. SOAP                                      | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
 |                   | 2. Forbidden Paths                           | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
 |                   | 3. cookies                                   | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
-| Crypto     | 1. C3                                       |![Doing](https://img.shields.io/badge/Status-Doing-yellow)|
+| Crypto     | 1. C3                                       |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |                   | 2. Custom encryption                         |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |                   | 3. miniRSA                                   | ![Doing](https://img.shields.io/badge/Status-Doing-yellow)|
 | Binary Exploitation       | 1. buffer overflow 0                         |![Haven't Started](https://img.shields.io/badge/Status-Haven't%20Started-red)|
