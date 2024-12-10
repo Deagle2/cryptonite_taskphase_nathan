@@ -26,9 +26,13 @@ gdb debugger0_a
 What you learned through solving this challenge:
 
 1. GNU DEBUGGER
-2. Assembly Language intro
 
-
-References
+#References
 
 - [reference 1](https://en.wikipedia.org/wiki/GNU_Debugger)
+
+  ---
+
+  
+
+
