@@ -4,7 +4,7 @@
 
 ---
 
-How you approached the challenge:
+# How you approached the challenge:
 
 - We have to find out the value in the eax register at the end of the main function and we're given a file `debugger0_a`
 - We are given 2 hints, gdb debugger and use of main
@@ -23,11 +23,12 @@ gdb debugger0_a
 
 ---
 
-What you learned through solving this challenge:
+# What you learned through solving this challenge:
 
 1. GNU DEBUGGER
+2. Assembly Language intro
 
-#References
+# References
 
 - [reference 1](https://en.wikipedia.org/wiki/GNU_Debugger)
 
