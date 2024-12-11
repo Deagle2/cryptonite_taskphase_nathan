@@ -13,7 +13,7 @@
 |                   | 3. cookies                                   | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
 | Crypto     | 1. C3                                       |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |                   | 2. Custom encryption                         |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
-|                   | 3. miniRSA                                   | ![Doing](https://img.shields.io/badge/Status-Doing-yellow)|
+|                   | 3. miniRSA                                   | ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 | Binary Exploitation       | 1. buffer overflow 0                         |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |                   | 2. format string 0                           | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
 |                   | 3. flag leak                                 |![Haven't Started](https://img.shields.io/badge/Status-Haven't%20Started-red)|
