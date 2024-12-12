@@ -3,7 +3,7 @@
 | Category          | Challenges                                   | Status          |
 |-|-|-|
 | Reverse Engineering    | 1. GDB baby step 1                          | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
-|                   | 2. ARMssembly 1                               | ![Haven't Started](https://img.shields.io/badge/Status-Haven't%20Started-red)|
+|                   | 2. ARMssembly 1                               | ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |                   | 3. Vault door 3                              | ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 | Forensics         | 1. trivial flag transfer protocol           | ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |                   | 2. tunn3l v1s10n                             |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
