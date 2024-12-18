@@ -36,7 +36,7 @@ gdb debugger0_a
 
 # ARMssembly 1
 
-**Flag:** picoCTF{0000001b}
+**Flag:**: `picoCTF{0000001b}`
 
 ##  How you approached the challenge:
 
