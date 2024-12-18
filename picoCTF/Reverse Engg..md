@@ -53,7 +53,7 @@ str w0, [sp, 12] ;  input x (passed in w0) is stored in [sp + 12]
 mov w0, 81          ; w0 = 81
 str w0, [sp, 16]    ; 81 stored in [sp + 16]
 
-str wzr, [sp, 20]   ; Store 0 at [sp + 20]
+str wzr, [sp, 20]   ; Stores 0 at [sp + 20]
 
 mov w0, 3           ; w0 = 3
 str w0, [sp, 24]    ; stores w0 = 3 at [sp + 24]
@@ -61,7 +61,7 @@ str w0, [sp, 24]    ; stores w0 = 3 at [sp + 24]
 ldr w0, [sp, 20]    ; Load 0 into w0
 ldr w1, [sp, 16]    ; Load 81 into w1
 lsl w0, w1, w0      ; Perform 81 << 0, so w0 = 81
-str w0, [sp, 28]    ; Store 81 at [sp + 28]
+str w0, [sp, 28]    ; Stores 81 at [sp + 28]
 
 ldr w1, [sp, 28]    ; Load 81 into w1
 ldr w0, [sp, 24]    ; Load 3 into w0
