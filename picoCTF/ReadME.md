@@ -16,7 +16,7 @@
 |                   | 3. miniRSA                                   | ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 | Binary Exploitation       | 1. buffer overflow 0                         |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |                   | 2. format string 0                           | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
-|                   | 3. flag leak                                 |![Haven't Started](https://img.shields.io/badge/Status-Haven't%20Started-red)|
+|                   | 3. flag leak                                 |![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 |Extra Challenges||
 | Web Exploitation| 1. picobrowser | ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
 ||2. Login| ![Done](https://img.shields.io/badge/Status-Done-brightgreen)|
