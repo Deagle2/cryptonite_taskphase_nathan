@@ -90,6 +90,40 @@ str w0, [sp, 28]    ; Store 27 at [sp + 28]
 
   ---
 
-  
+  # Vault Door 3
+
+**Flag:** `picoctf{jU5t_a_s1mpl3_an4gr4m_4_u_1fb380}`
+
+### How you approached the challenge:
+
+- We're given the following java program file:
+![image](https://github.com/user-attachments/assets/63383028-fa07-4db4-bcaf-28e39a442f44)
+
+This vault uses for-loops and byte arrays and the hint we're given is to "Make a table that contains each value of the loop variables and the corresponding buffer index that it writes to". I wasn't experienced with Java so I used python to get the flag
+
+```
+target = "jU5t_a_sna_3lpm18gb41_u_4_mfr340"
+
+password = [''] * 32
+for i in range(32):
+    if i < 8: password[i] = target[i]
+    elif i < 16: password[23 - i] = target[i]
+    elif i % 2 == 0: password[46 - i] = target[i]
+    else: password[i] = target[i]
+
+print(''.join(password))
+```
+
+In short the logic of the following program is 
+After making an emptry string of 32 characters 
+1) First 8 characters (i < 8): Directly copied characters
+2) Next 8 characters (8 ≤ i < 16): Placed in reverse order
+3) Last 16 characters (i ≥ 16): 
+
+    Even indices: Mirrored to reverse positions.
+
+    Odd indices: Directly copied.
+
+On running the program we get a text, adding picoctf{} to the text gets you the flag
 
 
